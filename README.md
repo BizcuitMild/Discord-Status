@@ -33,7 +33,7 @@ Linux: `~/.config/BetterDiscord/plugins`
 ```
 
 เวลาปัจจุบันและอิโมจินาฬิกาเป็นสถานะปัจจุบันของคุณ
-![Settings Page](https://i.ibb.co/s9rccdd/status-clock.png)
+![Settings Page](https://i.ibb.co/tKg7nM6/status-clock.png)
 ```
 "eval let fmt=t=>(t<10?'0':'')+t;let d=new Date();`${fmt(d.getHours())}:${fmt(d.getMinutes())}:${fmt(d.getSeconds())}`;", "eval ['🕛','🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙','🕚'][((new Date()).getHours()%12)];"
 ```
